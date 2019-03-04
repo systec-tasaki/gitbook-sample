@@ -22,9 +22,13 @@ jobs:
       - restore_cache:
           keys:
             - npm-{{ checksum "package.json" }}
+      - run: 
+          name: Install and configure the dependencies
+          command: |
+            npm install -g --silent gh-pages@2.0.1
+            git config user.name $GITHUB_NAME
+            git config user.email $GITHUB_EMAIL
       - run: npm install
-      - run: git config user.name $GITHUB_NAME
-      - run: git config user.email $GITHUB_EMAIL
       - run: npm run build
       - run: npm run publish
 workflows:
