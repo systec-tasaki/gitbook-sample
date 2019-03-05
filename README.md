@@ -16,7 +16,7 @@
 git clone https://github.com/mantaroh/gitbook-sample
 ```
 
-※自分のレポジトリに、フォークしてやったほうが楽かも
+※自分のレポジトリに、フォークしてやったほうが楽かも (参考：https://qiita.com/YumaInaura/items/acff806290c8953d3185 )
 
 ### 3. 関連モジュールのインストール
 
