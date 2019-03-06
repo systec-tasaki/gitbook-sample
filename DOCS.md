@@ -2,4 +2,4 @@
 
 ### こんな感じ？
 
-[Excel大好きおじさん](./docs/Excel.xlsx)
+[Excel大好きおじさん](./doc/Excel.xlsx)
